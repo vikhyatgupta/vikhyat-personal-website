@@ -1,32 +1,51 @@
 body {
-    position: relative;
+    /*position: relative;*/
 }
-
 .navbar {
     height:65px !important;
     transition: top 0.2s ease-in-out;
 }
-.size-icon {
-    font-size: 30px !important;
+#main-content{
+    font-family: 'Poiret One', cursive;
+    margin-top:65px;
 }
-.fa-graduation-cap:hover {
-    color: #800080;
+
+.icon{
+    font-size: 30px !important;
+    color:#009688;
+}
+.icon-bar{
+     background-color:#009688;    
+}
+
+.nav a:active {
+    border-bottom: 5px solid #009688;
+}
+
+.fa-graduation-cap:hover{
+     color: #800080;
+}
+.fa-wrench:hover{
+    color: #BDBDBD;
 }
 .fa-github:hover {
-    color: #32CD32;
+    color: #9CCC65;
 }
 .fa-linkedin-square:hover {
-    color: blue;
+    color: #1565C0;
 }
 .nav-up {
     top: -65px;
 }
-
+.content
+{
+    padding-left:2%;
+}
 #about {
     padding-top:60px;
     height: 700px;
     color:black; 
-    background-color: white;
+    background-color:#E0F7FA;
 }
 
 #about img{
@@ -46,24 +65,24 @@ body {
     padding-top:30px;
     height:500px;
     color: black; 
-    background-color: #D3D3D3;
+    background-color: #B2EBF2;
 }
 #skills {
     padding-top:30px;
     height:500px;
     color: black; 
-    background-color: #C0C0C0;
+    background-color: #B2DFDB;
 }
 #experience {
     padding-top:30px;
     height:500px;
     color: black; 
-    background-color: #A9A9A9;
+    background-color: #80DEEA;
 }
 
 #projects {
     padding-top:30px;
     height:1000px;
     color: black; 
-    background-color: #808080;
+    background-color: #80CBC4;
 }
