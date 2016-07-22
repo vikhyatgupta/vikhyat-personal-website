@@ -42,11 +42,7 @@ body {
     }*/    
 }
 @media (max-width: 414px){
-    #main-content{
-        min-height: auto;
-    
-    
-    }
+
     .heading{
         
         padding-left: 70px !important;
@@ -110,6 +106,7 @@ body {
     height:60px; 
 }
 #main-content{
+    overflow-y: scroll;
     font-family: 'Poiret One', cursive;
     margin-top:65px;
     color:white;
