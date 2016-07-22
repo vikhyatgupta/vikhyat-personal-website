@@ -1,57 +1,101 @@
 body {
-    /*position: relative;*/
 }
+
 @media (max-width: 768px){
-    .icon{
-        font-size: 25px !important;
-    }
     .heading{
         text-align: left !important;
         padding-left: 50px !important;
-        font-size: 26px !important;
+        font-size: 32px !important;
         padding-bottom:10px !important;    
     }
     #education {
-        height: 450px !important;
+        height: 550px !important;
     }
     .Masters{
-        padding-left: 50px !important;
-        font-size: 22px !important;
+        padding-left: 70px !important;
     }
     .BE{
-        padding-left: 90px !important;
-        font-size: 22px !important;
+        padding-left: 70px !important;
+    }
+    .EducationDegree, .SkillHeader, .ExpHeader, .ProjectHeader{
+        font-size: 28px !important;
     }
     #skills {
-        height: 450px !important;
+        height: 600px !important;
     }    
     .SkillHeader{
-        padding-left: 50px !important;
+        padding-left: 70px !important;
         padding-bottom: 10px !important;
     }
     .SkillData{
-        padding-right: 250px !important;
+        padding-left: 80px !important;
     }
-    .EducationDegree, .EducationSchool, .SkillHeader, .SkillData, .ExpHeader, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
+    #experience{
+        height: 900px !important;
+    }
+    #contact {
+        padding-top: 10px !important;
+    }
+    /*.EducationDegree, .EducationSchool, .SkillHeader, .SkillData, .ExpHeader, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
         font-size: 22px !important;
-        /*padding: 2px !important;*/
+        /*padding: 2px !important;
+    }*/    
+}
+@media (max-width: 414px){
+    #main-content{
+        min-height: auto;
+    
+    
+    }
+    .heading{
+        
+        padding-left: 70px !important;
+        font-size: 28px !important;
+        padding-bottom:10px !important;    
+    }
+    #education {
+        height: 500px !important;
+    }
+    .Masters{
+        padding-left: 70px !important;
+    }
+    .BE{
+        padding-left: 70px !important;
+    }
+    .EducationDegree, .SkillHeader, .ExpHeader, .ProjectHeader{
+        font-size: 25px !important;
+    }
+    .EducationSchool{
+        font-size: 22px !important;   
+    }
+    #skills {
+        height: 800px !important;
     }    
-    
-}
-@media (max-width: 375px){
-    .heading, .EducationDegree, .EducationSchool, .SkillHeader, .SkillData, .ExpHeader, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
-        font-size: 15px !important;
-        padding: 2px !important;
+    .SkillHeader{
+        padding-left: 70px !important;
+        padding-bottom: 10px !important;
     }
-    
-}
-@media (max-width: 435px){
-    .heading, .EducationHeader, .SkillHeader, .SkillData, .ExpHeader, .ExpData, .ProjectHeader, .ProjectData{
-        font-size: 20px !important;
-        padding: 5px !important;
+    .SkillData{
+        font-size: 22px !important;   
     }
-    
+    #experience{
+        height: 1400px !important;
+    }
+    .ExpDesc, .ExpData{
+        text-align: left !important;
+        padding-left:25px !important;
+        padding-right: 0px;
+        font-size: 22px !important;
+    }
+    #contact {
+        padding-top: 10px !important;
+    }
+    /*.EducationDegree, .EducationSchool, .SkillHeader, .SkillData, .ExpHeader, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
+        font-size: 22px !important;
+        /*padding: 2px !important;
+    }*/    
 }
+
 .navbar {
     height:65px !important;
     transition: top 0.2s ease-in-out;
@@ -117,6 +161,7 @@ body {
 }
 .EducationDegree{
     text-decoration: underline;
+    font-weight:900;
     color:#CE93D8;
 }
 .EducationSchool{
@@ -215,7 +260,8 @@ hr {
     background-color: white; height: 2px; border: 5; width:50%;
 }
 #contact {
-    padding-top:30px;
+    padding-top:20px;
+    padding-bottom: 40px;
     height:150px;
     color: white;
     text-align: center;    
