@@ -1,107 +1,58 @@
-body {
-}
-
 @media (max-width: 768px){
-    .heading{
-        text-align: left !important;
-        padding-left: 50px !important;
-        font-size: 32px !important;
-        padding-bottom:10px !important;    
-    }
-    #education {
-        height: 550px !important;
-    }
-    .Masters{
-        padding-left: 70px !important;
-    }
-    .BE{
-        padding-left: 70px !important;
-    }
-    .EducationDegree, .SkillHeader, .ExpHeader, .ProjectHeader{
-        font-size: 28px !important;
-    }
-    #skills {
-        height: 600px !important;
-    }    
     .SkillHeader{
         padding-left: 70px !important;
-        padding-bottom: 10px !important;
     }
     .SkillData{
         padding-left: 80px !important;
     }
-    #experience{
-        height: 900px !important;
-    }
-    #contact {
-        padding-top: 10px !important;
-    }
-    /*.EducationDegree, .EducationSchool, .SkillHeader, .SkillData, .ExpHeader, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
-        font-size: 22px !important;
-        /*padding: 2px !important;
-    }*/    
 }
-@media (max-width: 414px){
 
+@media (max-width: 414px){
     .heading{
-        
-        padding-left: 70px !important;
-        font-size: 28px !important;
-        padding-bottom:10px !important;    
+        font-size: 30px !important;  
     }
-    #education {
-        height: 500px !important;
-    }
-    .Masters{
-        padding-left: 70px !important;
-    }
-    .BE{
-        padding-left: 70px !important;
-    }
-    .EducationDegree, .SkillHeader, .ExpHeader, .ProjectHeader{
-        font-size: 25px !important;
-    }
-    .EducationSchool{
-        font-size: 22px !important;   
-    }
-    #skills {
-        height: 600px !important;
-    }    
-    .SkillHeader{
-        padding-left: 70px !important;
-        padding-bottom: 10px !important;
-    }
-    .SkillData{
+    .Masters, .BE, .SkillHeader, .SkillData, .ExpHeader, .ExpDesc, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
         font-size: 22px !important;
-        padding-right: 20px !important;   
-    }
-    #experience{
-        height: 850px !important;
-    }
-    .ExpDesc, .ExpData{
+    }     
+    .Masters, .BE, .SkillHeader, .SkillData{
+        padding-left: 30px !important;
+    }  
+    .ExpData{
         text-align: left !important;
-        padding-left:30px !important;
-        padding-right: 20px !important;
-        font-size: 20px !important;
-    }
-    #projects{
-        height: 2150px !important;
-    }
-    .ProjectLanguage{
-        padding-left:30px !important;
     }
     .ProjectHeader, .ProjectData{
-        padding-right: 20px !important;
-        padding-left:30px !important;
-        font-size: 20px !important;
+        padding-left: 25px !important;
+    }    
+}
+
+@media (max-width: 435px){
+    .heading{
+        font-size: 30px !important;  
     }
-    #contact {
-        padding-top: 10px !important;
-    }
-    /*.EducationDegree, .EducationSchool, .SkillHeader, .SkillData, .ExpHeader, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
+    .Masters, .BE, .SkillHeader, .SkillData, .ExpHeader, .ExpDesc, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
         font-size: 22px !important;
-        /*padding: 2px !important;
-    }*/    
+    }     
+    .Masters, .BE, .SkillHeader, .SkillData{
+        padding-left: 30px !important;
+    }
+    .ExpDesc{
+        padding-left: 10px !important;
+    }
+    .ExpData{
+        text-align: left !important;
+    }
+    .ProjectHeader, .ProjectData{
+        padding-left: 25px !important;
+    }    
+}
+
+@media (max-width: 375px){
+    .heading{
+        font-size: 25px !important;  
+    }
+    .Masters, .BE, .SkillHeader, .SkillData, .ExpHeader, .ExpDesc, .ExpData, .ProjectLanguage, .ProjectHeader, .ProjectData{
+        font-size: 20px !important;
+    }  
 }
 
 .navbar {
@@ -161,43 +112,46 @@ body {
     color: #64B5F6;
     font-weight:bolder;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 35px;
+    padding-top:20px;
     padding-bottom:40px;
 }
 #education {
     padding-top:30px;
-    height:400px;
+}
+.EducationSchool{
+    color: #FFD54F;
+    font-weight:900;
 }
 .EducationDegree{
     text-decoration: underline;
     font-weight:900;
     color:#CE93D8;
 }
-.EducationSchool{
-    font-size:30px;
-}
 .Masters{
-    padding-left: 250px;
+    font-size:25px;
+    padding-left: 100px;
+    padding-bottom:5px;
 }
 .BE{
-    padding-left: 100px;
+    font-size:25px;
+    padding-left: 100px;    
+    padding-bottom:5px;
 }
 #skills {
     padding-top:30px;
-    height:500px;
     color: black; 
 }
 .SkillHeader{
-    padding-left:200px;
-    font-size:30px;
+    padding-left:100px;
+    font-size:25px;
     width:auto;
     font-weight:900;    
     color:#CE93D8;
 }
 .SkillData{
-    padding-right:150px;
     color:white;     
-    font-size:30px;
+    font-size:25px;
     width:auto;
 }
 .SkillLink{
@@ -212,12 +166,24 @@ a.SkillLink:hover {
     text-decoration: none;
     color: grey;
 }
+a.SkillDataLink:hover {
+    text-decoration: none;
+    color: grey;
+}
 #experience {
     padding-top:30px;
-    height:700px;
+}
+.ExpHeader:focus {
+    border: solid #CE93D8;
+    color: #CE93D8;
 }
 .ExpHeader{
-    text-decoration: underline;
+    /*button-settings*/
+    background: rgba(54, 25, 25, 0);
+    border-style: solid;
+    border-color: #CE93D8;
+    margin-bottom: 10px;
+
     color: #CE93D8;
     font-weight:900;
     font-size:25px;
@@ -232,35 +198,44 @@ a.SkillLink:hover {
 .ExpData{
     font-size:25px;
     color:white;
-    font-weight:900;
     text-align: justify;
-    padding-left:100px;
-    padding-right:100px; 
+    padding-left:50px;
 } 
 #projects {
     padding-top:30px;
-    height:1700px;
     color: white; 
 }
 .ProjectLanguage{
     color:#CE93D8; 
     font-weight:900;
     font-size:25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 15px;
     text-align: center;
-    padding:10px 100px;
+    text-decoration: underline;
+}
+.ProjectHeader:focus {
+    border: solid #FFD54F;
+    color: #FFD54F;
 }
 .ProjectHeader{
+    /*button-settings*/
+    background: rgba(54, 25, 25, 0);
+    border-style: solid;
+    border-color: #FFD54F;
+    margin-bottom: 10px;
+    white-space: normal;
+
     color:#FFD54F; 
     font-weight:900;
     font-size:25px;
-    text-decoration: underline;
-    padding:10px 100px;
 }
 .ProjectData{
     font-size:25px;
     color:white;
-    font-weight:900;
-    padding:0 100px 20px 100px;
+    padding-bottom: 40px;
+    padding-left:50px;
 }
 a.ProjectLink{
     color: #FFD54F;   
@@ -271,7 +246,6 @@ hr {
 #contact {
     padding-top:20px;
     padding-bottom: 40px;
-    height:150px;
     color: white;
     text-align: center;    
 }
